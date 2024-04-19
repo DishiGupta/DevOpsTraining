@@ -1,0 +1,195 @@
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+Not Found: /robots.txt
+[03/Apr/2024 18:38:20] "GET /robots.txt HTTP/1.1" 404 2565
+[03/Apr/2024 18:38:23] "GET / HTTP/1.1" 302 0
+[03/Apr/2024 18:38:24] "GET /todos HTTP/1.1" 301 0
+[04/Apr/2024 01:10:54] code 400, message Bad request version ('À\x13À')
+[04/Apr/2024 01:10:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2024 01:10:54] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03i\x8d*w!ýW\x9cö\x9fCvTÕZq×\x87:ÃÿT\x8c=bòíG\x03\x89\x86m\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+[04/Apr/2024 01:10:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2024 01:33:27] "GET / HTTP/1.1" 302 0
+Not Found: /http:/uplo.ad/
+[04/Apr/2024 06:26:40] "GET http://uplo.ad/?v=1&ip=52.87.221.41&port=8001 HTTP/1.1" 404 1820
+[04/Apr/2024 08:39:41] "GET / HTTP/1.1" 302 0
+[04/Apr/2024 11:06:01] code 400, message Bad request version ('À\x14À')
+[04/Apr/2024 11:06:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2024 12:50:51] code 400, message Bad request version ('À\x14À')
+[04/Apr/2024 12:50:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2024 15:41:32] code 400, message Bad request version ('À\x14À')
+[04/Apr/2024 15:41:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Apr/2024 21:15:09] "GET / HTTP/1.1" 302 0
+[04/Apr/2024 21:15:09] "GET /todos HTTP/1.1" 301 0
+[04/Apr/2024 21:15:09] "GET /todos/ HTTP/1.1" 200 4108
+[04/Apr/2024 21:43:19] "GET / HTTP/1.1" 302 0
+[04/Apr/2024 22:45:17] "GET / HTTP/1.1" 302 0
+[04/Apr/2024 22:45:17] "GET /todos HTTP/1.1" 301 0
+[04/Apr/2024 22:45:17] "GET /todos/ HTTP/1.1" 200 4108
+Not Found: /showLogin.cc
+[04/Apr/2024 22:45:29] "GET /showLogin.cc HTTP/1.1" 404 2576
+[05/Apr/2024 01:17:18] code 400, message Bad request version ("vÐ~×U/¸\x97u\x12ë\x9a%¦\x0eªh\x00(\x13\x02\x13\x01À,À+À0À/À$À#À(À'À")
+[05/Apr/2024 01:17:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2024 01:17:18] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x03\x00§\x01\x00\x00£\x03\x03f\x0f\x03Æ×Ýñ\x92\\')
+[05/Apr/2024 01:17:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2024 01:17:18] code 400, message Bad request version ("²±\x05Q\x00\x00$À,À+À0À/À$À#À(À'À")
+[05/Apr/2024 01:17:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2024 01:17:18] code 400, message Bad request version ('\x00\x1a\x00\x18\x08\x04\x08\x05\x08\x06\x04\x01\x05\x01\x02\x01\x04\x03\x05\x03\x02\x03\x02\x02\x06\x01\x06\x03\x00#\x00\x00\x00')
+[05/Apr/2024 01:17:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2024 01:17:20] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01>\x01\x00\x01:\x03\x03\x98\x7f`~J\x98Û\x90\x9aí¯«Lãý^±Ô*³^ßS\x06\x19\x83\x11\x07"n¥Ò')
+[05/Apr/2024 01:17:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2024 13:15:21] code 400, message Bad request version ('À\x14À')
+[05/Apr/2024 13:15:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2024 17:43:08] "GET / HTTP/1.1" 302 0
+[05/Apr/2024 17:43:14] "GET / HTTP/1.1" 302 0
+[05/Apr/2024 17:43:14] "GET /todos HTTP/1.1" 301 0
+[05/Apr/2024 17:43:14] "GET /todos/ HTTP/1.1" 200 4108
+Not Found: /favicon.ico
+[05/Apr/2024 17:43:17] "GET /favicon.ico HTTP/1.1" 404 2573
+Not Found: /http:/api.ipify.org/
+[05/Apr/2024 17:43:21] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1818
+Not Found: /www.shadowserver.org:443
+[05/Apr/2024 17:43:24] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 1827
+[05/Apr/2024 17:57:01] code 400, message Bad request version ('À\x14À')
+[05/Apr/2024 17:57:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+[05/Apr/2024 18:28:06] "GET / HTTP/1.1" 302 0
+[05/Apr/2024 18:28:06] "GET /todos HTTP/1.1" 301 0
+[05/Apr/2024 18:28:07] "GET /todos/ HTTP/1.1" 200 4108
+[05/Apr/2024 18:28:08] "GET /static/css/style.css HTTP/1.1" 200 225
+Not Found: /favicon.ico
+[05/Apr/2024 18:28:12] "GET /favicon.ico HTTP/1.1" 404 2573
+[05/Apr/2024 18:36:28] "GET / HTTP/1.1" 302 0
+[05/Apr/2024 18:36:29] "GET /todos/ HTTP/1.1" 200 4108
+[05/Apr/2024 19:03:37] code 400, message Bad request version ('À\x14À')
+[05/Apr/2024 19:03:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Apr/2024 06:59:21] "GET / HTTP/1.1" 302 0
+[06/Apr/2024 06:59:23] code 400, message Bad request version ('À\x13À')
+[06/Apr/2024 06:59:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Apr/2024 06:59:23] code 400, message Bad HTTP/0.9 request type ('t3')
+[06/Apr/2024 06:59:23] "t3 12.1.2" 400 -
+[06/Apr/2024 10:53:31] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03í¹\x94c\x08\x87çã*{e;\x18')
+[06/Apr/2024 10:53:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Apr/2024 11:56:56] code 400, message Bad request version ('\x00\x9eÌ¨Ìª\x003\x00=\x00\x16À')
+[06/Apr/2024 11:56:56] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Apr/2024 11:57:06] "GET / HTTP/1.1" 302 0
+[06/Apr/2024 11:57:25] "GET /todos HTTP/1.1" 301 0
+[06/Apr/2024 11:57:25] "GET /todos/ HTTP/1.1" 200 4108
+Not Found: /favicon.ico
+[06/Apr/2024 11:57:26] "GET /favicon.ico HTTP/1.1" 404 2573
+Not Found: /robots.txt
+[06/Apr/2024 11:57:27] "GET /robots.txt HTTP/1.1" 404 2570
+Not Found: /sitemap.xml
+[06/Apr/2024 11:57:27] "GET /sitemap.xml HTTP/1.1" 404 2573
+[06/Apr/2024 12:06:58] code 400, message Bad request version ('k@\x88\x9døSÊ\x9e¨\x92XÒ(w\x97ße3v®\x05(\x1b@')
+[06/Apr/2024 12:06:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Apr/2024 12:06:58] code 400, message Bad request version ("Ú¼©Í\x8b\x00\x00$À,À+À0À/À$À#À(À'À")
+[06/Apr/2024 12:06:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Apr/2024 12:06:58] code 400, message Bad request version ("-6æ\x83q{ë{f\x00\x00$À,À+À0À/À$À#À(À'À")
+[06/Apr/2024 12:06:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Apr/2024 12:06:58] code 400, message Bad request version ('\x00\x1a\x00\x18\x08\x04\x08\x05\x08\x06\x04\x01\x05\x01\x02\x01\x04\x03\x05\x03\x02\x03\x02\x02\x06\x01\x06\x03\x00#\x00\x00\x00')
+[06/Apr/2024 12:06:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Apr/2024 12:07:06] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x01>\x01\x00\x01:\x03\x03¬¶6F«wº\x9a:ÖâóY\x89ÆG\x04çÆ_Î1\x04Ûÿ\x81j'\x18zp%")
+[06/Apr/2024 12:07:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Apr/2024 12:11:50] "GET / HTTP/1.1" 302 0
+Not Found: /favicon.ico
+[06/Apr/2024 12:11:50] "GET /favicon.ico HTTP/1.1" 404 2573
+Not Found: /todos/sitemap.xml
+[06/Apr/2024 12:11:51] "GET /todos/sitemap.xml HTTP/1.1" 404 3209
+Not Found: /todos/robots.txt
+[06/Apr/2024 12:11:51] "GET /todos/robots.txt HTTP/1.1" 404 3206
+[06/Apr/2024 12:11:51] "GET /todos HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[06/Apr/2024 12:11:52] "GET /favicon.ico HTTP/1.1" 404 2573
+Not Found: /todos/sitemap.xml
+[06/Apr/2024 12:11:52] "GET /todos/sitemap.xml HTTP/1.1" 404 3209
+Not Found: /todos/robots.txt
+[06/Apr/2024 12:11:52] "GET /todos/robots.txt HTTP/1.1" 404 3206
+[06/Apr/2024 12:11:53] "GET /todos/ HTTP/1.1" 200 4108
+Not Found: /favicon.ico
+[06/Apr/2024 12:11:53] "GET /favicon.ico HTTP/1.1" 404 2573
+Not Found: /todos/sitemap.xml
+[06/Apr/2024 12:11:54] "GET /todos/sitemap.xml HTTP/1.1" 404 3209
+Not Found: /todos/robots.txt
+[06/Apr/2024 12:11:54] "GET /todos/robots.txt HTTP/1.1" 404 3206
+[06/Apr/2024 12:40:05] code 400, message Bad request version ('À\x14À')
+[06/Apr/2024 12:40:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Apr/2024 17:19:17] "GET / HTTP/1.1" 302 0
+[06/Apr/2024 21:59:18] "GET / HTTP/1.1" 302 0
+[06/Apr/2024 22:04:08] code 400, message Bad request version ('À\x14À')
+[06/Apr/2024 22:04:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[06/Apr/2024 22:18:34] "GET / HTTP/1.1" 302 0
+[06/Apr/2024 22:18:34] "GET /todos HTTP/1.1" 301 0
+[06/Apr/2024 22:18:35] "GET /todos/ HTTP/1.1" 200 4108
+Not Found: /todos/favicon.ico
+[06/Apr/2024 22:18:36] "GET /todos/favicon.ico HTTP/1.1" 404 3209
+Not Found: /favicon.ico
+[06/Apr/2024 22:18:37] "GET /favicon.ico HTTP/1.1" 404 2573
+[06/Apr/2024 22:19:43] "GET / HTTP/1.1" 302 0
+Not Found: /api/v2/
+[07/Apr/2024 01:13:28] "GET /api/v2/ HTTP/1.1" 404 2561
+Not Found: /ms/1.0/
+[07/Apr/2024 01:13:28] "GET /ms/1.0/ HTTP/1.1" 404 2561
+[07/Apr/2024 01:13:28] "GET / HTTP/1.1" 302 0
+[07/Apr/2024 01:13:28] "GET /todos HTTP/1.1" 301 0
+[07/Apr/2024 01:13:28] "GET /todos/ HTTP/1.1" 200 4108
+[07/Apr/2024 01:53:00] "GET / HTTP/1.1" 302 0
+[07/Apr/2024 08:43:53] code 400, message Bad request version ('À\x14À')
+[07/Apr/2024 08:43:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /EZPm
+[07/Apr/2024 09:25:58] "GET /EZPm HTTP/1.1" 404 2552
+Not Found: /eZYE
+[07/Apr/2024 09:25:59] "GET /eZYE HTTP/1.1" 404 2552
+Not Found: /stager
+[07/Apr/2024 09:25:59] "GET stager HTTP/1.1" 404 1766
+Not Found: /stager64
+[07/Apr/2024 09:25:59] "GET stager64 HTTP/1.1" 404 1772
+[07/Apr/2024 12:45:20] code 400, message Bad request version ('À\x14À')
+[07/Apr/2024 12:45:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+[07/Apr/2024 12:48:43] code 400, message Bad request version ('·GÂ\x1aÇ\x9d')
+[07/Apr/2024 12:48:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+[07/Apr/2024 12:48:43] code 400, message Bad request version ('À(À$À\x14À')
+[07/Apr/2024 12:48:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+[07/Apr/2024 15:40:56] "GET / HTTP/1.1" 302 0
+[07/Apr/2024 15:41:01] "GET / HTTP/1.1" 302 0
+[07/Apr/2024 15:41:01] "GET /todos HTTP/1.1" 301 0
+[07/Apr/2024 15:41:01] "GET /todos/ HTTP/1.1" 200 4108
+Not Found: /favicon.ico
+[07/Apr/2024 15:41:04] "GET /favicon.ico HTTP/1.1" 404 2573
+Not Found: /http:/api.ipify.org/
+[07/Apr/2024 15:41:08] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1818
+[07/Apr/2024 16:09:29] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x89¯Iî¡N/Ñã|»¼\x90Ec«®¡n«\x86lôéÊø\x9dôe&?\x00\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[07/Apr/2024 16:09:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+[07/Apr/2024 16:40:31] code 400, message Bad request version ("h\x16!ôÈ\x96\x07ó\x88\x81\x9c.Tn£EëÙ`H\x04\x80\x9d\x00,\x13\x02\x13\x01À,À+À0À/\x00\x9f\x00\x9eÀ$À#À(À'À")
+[07/Apr/2024 16:40:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /.DS_Store
+[07/Apr/2024 18:08:48] "GET /.DS_Store HTTP/1.1" 404 2567
+Not Found: /.vscode/sftp.json
+[07/Apr/2024 18:53:00] "GET /.vscode/sftp.json HTTP/1.1" 404 2591
+Not Found: /.git/config
+[07/Apr/2024 22:00:00] "GET /.git/config HTTP/1.1" 404 2573
+[08/Apr/2024 07:17:04] "GET / HTTP/1.1" 302 0
+[08/Apr/2024 07:17:04] "GET /todos HTTP/1.1" 301 0
+[08/Apr/2024 07:17:04] "GET /todos/ HTTP/1.1" 200 4108
+[08/Apr/2024 09:41:46] "GET / HTTP/1.1" 302 0
+[08/Apr/2024 09:41:55] "GET / HTTP/1.1" 302 0
+[08/Apr/2024 09:41:55] "GET /todos HTTP/1.1" 301 0
+[08/Apr/2024 09:41:55] "GET /todos/ HTTP/1.1" 200 4108
+Not Found: /favicon.ico
+[08/Apr/2024 09:42:00] "GET /favicon.ico HTTP/1.1" 404 2573
+Not Found: /http:/api.ipify.org/
+[08/Apr/2024 09:42:04] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1818
+Not Found: /www.shadowserver.org:443
+[08/Apr/2024 09:42:07] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 1827
+[08/Apr/2024 11:58:08] code 400, message Bad request version ('À\x13À')
+[08/Apr/2024 11:58:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[08/Apr/2024 11:58:08] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03ñ\x88ø\x8de\x81.\x83y.\x0eÆ¤®uìá\x04F\x95Ä±Öþ\x82\x07x\x0eæÎ\x1aÀ\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+[08/Apr/2024 11:58:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[08/Apr/2024 12:48:17] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03¨íÎ.?²\x0fF¢%\x01C9\x83U}\x00zòÔÚ\x16ñRß#\x91u&¨\x9c\x8e\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[08/Apr/2024 12:48:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+[08/Apr/2024 13:14:29] code 400, message Bad request version ('À\x14À')
+[08/Apr/2024 13:14:29] You're accessing the development server over HTTPS, but it only supports HTTP.
